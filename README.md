@@ -1,4 +1,13 @@
-# Minimal Mistakes
+
+# This is the data for my website
+
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+
+
+
+
+# The Minimal Mistakes Theme
+Below is stock information for the theme used for my website.
 
 **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.
 

@@ -8,10 +8,10 @@ disqus_shortname:
 owner:
   name:           Daniel Gallagher
 #  avatar:         bio-photo.jpg
-  bio:            "Electrical Engineer."
+  bio:            "Electrical Engineer, PhD Candidate."
   email:          dgallagher@knights.ucf.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        dgallagher
+  twitter:        
   facebook:
   github:         danielgallagher
   bitbucket:      dgallagher
@@ -27,6 +27,9 @@ owner:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
+  resume:         resume/
+  mailto:		  
+  pgp:			  
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-4087959-1
@@ -37,10 +40,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
-    url: /posts/
+#  - title: About
+#    url: /about/
+#  - title: Posts
+#    url: /posts/
   - title: Résumé
     url: /resume/
 #  - title: Theme Setup
