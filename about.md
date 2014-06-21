@@ -8,19 +8,22 @@ modified: 9-9-2013
 comments: false
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+{% if site.owner.resume %}<a href="{{ site.owner.resume }}" class="author-social"><i class="fa fa-file"></i> Résumé / CV</a>{% endif %}
 
-## Minimal Mistakes is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
-
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
-
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+{% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>{% endif %}
+{% if site.owner.facebook %}<a href="http://facebook.com/{{ site.owner.facebook }}" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>{% endif %}
+{% if site.owner.google_plus %}<a href="http://plus.google.com/+{{ site.owner.google_plus }}" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>{% endif %}
+{% if site.owner.linkedin %}<a href="http://linkedin.com/in/{{ site.owner.linkedin }}" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>{% endif %}
+{% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" class="author-social" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>{% endif %}
+{% if site.owner.tumblr %}<a href="http://{{ site.owner.tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="fa fa-tumblr-square"></i> Tumblr</a>{% endif %}
+{% if site.owner.github %}<a href="http://github.com/{{ site.owner.github }}" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>{% endif %}
+{% if site.owner.bitbucket %}<a href="http://bitbucket.org/{{ site.owner.bitbucket }}" class="author-social" target="_blank"><i class="fa fa-bitbucket"></i> Bitbucket</a>{% endif %}
+{% if site.owner.stackoverflow %}<a href="http://stackoverflow.com/users/{{ site.owner.stackoverflow }}" class="author-social" target="_blank"><i class="fa fa-stack-overflow"></i> Stackoverflow</a>{% endif %}
+{% if site.owner.lastfm %}<a href="http://lastfm.com/user/{{ site.owner.lastfm }}" class="author-social" target="_blank"><i class="fa fa-music"></i> Last.fm</a>{% endif %}
+{% if site.owner.dribbble %}<a href="http://dribbble.com/{{ site.owner.dribbble }}" class="author-social" target="_blank"><i class="fa fa-dribbble"></i> Dribbble</a>{% endif %}
+{% if site.owner.pinterest %}<a href="http://www.pinterest.com/{{ site.owner.pinterest }}" class="author-social" target="_blank"><i class="fa fa-pinterest"></i> Pinterest</a>{% endif %}
+{% if site.owner.foursquare %}<a href="http://foursquare.com/{{ site.owner.foursquare }}" class="author-social" target="_blank"><i class="fa fa-foursquare"></i> Foursquare</a>{% endif %}
+{% if site.owner.steam %}<a href="http://steamcommunity.com/id/{{ site.owner.steam }}" class="author-social" target="_blank"><i class="fa fa-steam-square"></i> Steam</a>{% endif %}
+{% if site.owner.flickr %}<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" class="author-social" target="_blank"><i class="fa fa-flickr"></i> Flickr</a>{% endif %}
+{% if site.owner.mailto %}<br/><a href="mailto:{{ site.owner.email }}" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i>Email me</a>{% endif %}
+{% if site.owner.pgp %}<a href="#" class="author-social" target="_blank"><i class="fa fa-lock"></i> PGP</a>{% endif %}
