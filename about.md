@@ -2,9 +2,9 @@
 layout: page
 permalink: /about/
 title: About me
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2014
+tagline: Electrical Engineer PhD
+tags: [about, daniel gallagher, resume, cv, engineer, electrical, rf, communications, sensors, hire, phd, doctorate, research, design, NASA]
+modified: 7-23-2014
 comments: false
 ---
 

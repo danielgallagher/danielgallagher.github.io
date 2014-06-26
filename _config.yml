@@ -7,9 +7,9 @@ disqus_shortname:
 # Owner/author information
 owner:
   name:           Daniel Gallagher
-#  avatar:         bio-photo.jpg
+  avatar:         daniel-gallagher.jpg
   bio:            "Electrical Engineer, PhD Candidate."
-  email:          dgallagher@knights.ucf.edu
+  email:          contact@danielgallagher.net
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        
   facebook:
@@ -28,8 +28,7 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
   resume:         resume/
-  mailto:		  
-  pgp:			  
+  contact:		  contact/	  
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-4087959-1
@@ -42,10 +41,10 @@ bing_verify:
 links:
   - title: About
     url: /about/
-#  - title: Posts
-#    url: /posts/
   - title: Résumé
     url: /resume/
+  - title: Posts
+    url: /posts/
 #  - title: Theme Setup
 #    url: /theme-setup/
   - title: UCF Research
@@ -54,6 +53,8 @@ links:
 #  - title: Made Mistakes
 #    url: http://mademistakes.com
 #    external: true
+  - title: Contact
+    url: /contact/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

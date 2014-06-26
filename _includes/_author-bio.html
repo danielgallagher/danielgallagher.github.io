@@ -26,5 +26,4 @@
 {% if site.owner.foursquare %}<a href="http://foursquare.com/{{ site.owner.foursquare }}" class="author-social" target="_blank"><i class="fa fa-foursquare"></i> Foursquare</a>{% endif %}
 {% if site.owner.steam %}<a href="http://steamcommunity.com/id/{{ site.owner.steam }}" class="author-social" target="_blank"><i class="fa fa-steam-square"></i> Steam</a>{% endif %}
 {% if site.owner.flickr %}<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" class="author-social" target="_blank"><i class="fa fa-flickr"></i> Flickr</a>{% endif %}
-{% if site.owner.mailto %}<br/><a href="mailto:{{ site.owner.email }}" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i>Email me</a>{% endif %}
-{% if site.owner.pgp %}<a href="#" class="author-social" target="_blank"><i class="fa fa-lock"></i> PGP</a>{% endif %}
+{% if site.owner.contact %}<br/><a href="{{ site.url }}/{{ site.owner.contact }}" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i>Contact</a>{% endif %}

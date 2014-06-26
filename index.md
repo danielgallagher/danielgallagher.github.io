@@ -1,7 +1,7 @@
 ---
 layout: page
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Daniel Gallagher Homepage"
+tags: [daniel gallagher, resume, cv, engineer, electrical, rf, communications, sensors, hire, phd, doctorate, research, design, NASA]
 ---
 ## Welcome ##
 
